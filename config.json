@@ -1,0 +1,13 @@
+{
+  "token": "TOKEN",
+  "prefix": "!",
+  "logs_folder": "logs",
+  "log_filename": "%Y-%m-%dT%H-%M-%S.txt",
+  "embed_color": "#7289DA",
+  "description": "A bot that assigns roles to members automatically on joining",
+  "database": "database.db",
+  "role_received_message": "$MENTION, you got the role!",
+  "on_join": true,
+  "on_bootup": true,
+  "on_role_change": true
+}
