@@ -1,3 +1,8 @@
+This bot the userIDs in database the role automaticly on join and scans the current members if they are in the list. if they are, bot will give them the role.
+
+This bot is very useful for people that wanna move their staff to another server,
+just add their user IDS in db.
+
 If you already know everything about hosting a bot, you can skip this text file.
 If not, I'll quickly run through the process of creating a Discord Bot account with you so you can get started with your own custom Discord bot.
 Also I'll give you a brief overview of the possible ways to host a bot.
