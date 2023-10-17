@@ -1,0 +1,23 @@
+@startuml
+
+title VIPBot Quick-View
+
+|User|
+start
+:Provide UserIDs to Database;
+
+|Discord Bot|
+:Acquire UserIDs from Database;
+:Check if users are part of current members;
+if (User is part of current members) then (yes)
+  :Assign role to User;
+else (no)
+  :Ignore User;
+endif
+
+|User|
+:Receives role if existing member;
+
+stop
+
+@enduml
